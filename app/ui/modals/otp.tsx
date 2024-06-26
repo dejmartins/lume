@@ -34,7 +34,7 @@ export default function OtpModal({ isOpen, onClose }: { isOpen: boolean, onClose
             <div className="sm:flex sm:items-start">
               <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                 <h3 className="text-lg font-medium leading-6 text-gray-900" id="modal-title">
-                  Enter OTP
+                  Enter Access Code
                 </h3>
                 <div className="mt-2">
                   <p className="text-sm text-gray-500">
