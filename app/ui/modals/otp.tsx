@@ -47,16 +47,17 @@ export default function OtpModal({ isOpen, onClose }: { isOpen: boolean, onClose
                     placeholder="Enter OTP"
                   />
                   <p className='text-center my-5 text-sm font-bold'>Didn't get any code?
-                      <span className='text-[var(--lume-yellow)] font-semibold ml-1 underline underline-offset-auto'>Resend</span>
+                      <span className='text-[var(--lume-yellow)] font-semibold ml-1 underline underline-offset-auto cursor-pointer'>Resend</span>
                   </p>
                 </div>
               </div>
             </div>
           </div>
           <div className="px-4 py-3 bg-[#F8BE4FCC] sm:px-6 sm:flex sm:flex-row-reverse">
+            {/* Button to be fixed here. Study style first */}
             <button
               type="button"
-              className="inline-flex justify-center w-full px-4 py-2 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:ml-3 sm:w-auto sm:text-sm"
+              className="inline-flex justify-center w-full px-4 py-2 text-base font-medium text-white bg-black border border-transparent rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:ml-3 sm:w-auto sm:text-sm"
               onClick={onClose}
             >
               Submit
