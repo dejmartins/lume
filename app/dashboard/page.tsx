@@ -23,7 +23,7 @@ export default function Page(){
                 </div>
             </div>
 
-            <div className="w-64 h-full grow">
+            <div className="w-96 h-full grow">
                 <Profile />
                 <Purchase />
             </div>
