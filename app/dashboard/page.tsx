@@ -9,8 +9,6 @@ export default function Page(){
     return (
         <div className="flex">
             <div className="w-full mr-5">
-                <p>Dashboard</p>
-
                 <Card />
 
                 <div className="grid grid-cols-2 my-3 gap-3">
