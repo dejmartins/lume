@@ -10,7 +10,9 @@ export default function Card() {
           </div>
   
           <div className="w-2/5 flex flex-col justify-center text-center items-center relative">
-            <div className="h-12 w-12 rounded-full bg-[#000000] z-10 relative"></div>
+            <div className="h-12 w-12 rounded-full bg-[#000000] z-10 relative flex flex-col items-center justify-center">
+                <img src="/props/gold-money.png" alt="gold bars" />
+            </div>
             <div className="w-full rounded-[20px] mt-[-22px] bg-[#000000] p-5 shadow-[0_9px_50px_-15px_rgba(246,196,0,0.75)] relative z-0">
               <p className="text-xl text-white">253g</p>
               <p className="text-white">Your Gold Vault</p>
