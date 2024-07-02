@@ -5,7 +5,7 @@ export default function SideNav() {
     return (
       <div className="flex h-full flex-col px-3 py-4 md:px-2">
         <Link
-          className="flex h-20 items-end justify-start rounded-t-md bg-black border border-white p-4 md:h-32"
+          className="flex h-20 items-end justify-start rounded-t-md bg-black bg-[#000000] p-4 md:h-32"
           href="/login"
         >
             <img src="/props/dashboard-logo.png" alt="Lume Logo" className="h-16 mx-auto" />
