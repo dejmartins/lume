@@ -11,7 +11,7 @@ export default function Page(){
             <div className="w-full mr-5">
                 <Card />
 
-                <div className="grid grid-cols-2 my-3 gap-3">
+                <div className="grid grid-cols-2 my-3 gap-3 min-h-40">
                     <LatestActivities />
                     <Adverts />
                 </div>
