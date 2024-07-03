@@ -4,9 +4,9 @@ export default function Card() {
         <div className="absolute inset-0 bg-gradient-to-r from-[#5A5A5A] to-[#C0C0C0]"></div>
         <div className="absolute inset-0 bg-black rounded-md m-1"></div>
         <div className="relative z-10 flex gap-x-5 h-full p-3">
-          <div className="flex-1 bg-gradient-to-r from-[#81682A] to-[#EAB83E] rounded-[20px] p-5">
-            <p>Your total asset portfolio</p>
-            <p>N203,935</p>
+          <div className="flex-1 flex flex-col justify-center bg-gradient-to-r from-[#81682A] to-[#EAB83E] rounded-[20px] p-5 pl-7">
+            <p className="text-xl">Your total asset portfolio</p>
+            <p className="text-4xl font-bold">N203,935</p>
           </div>
   
           <div className="w-2/5 flex flex-col justify-center text-center items-center relative">
