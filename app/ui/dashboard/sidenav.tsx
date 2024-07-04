@@ -22,10 +22,10 @@ export default function SideNav({ isCollapsed, setIsCollapsed }: any) {
                 </form>
             </div>
             <button 
-                className="absolute bottom-4 right-[-12px] p-2 bg-black border rounded-full focus:outline-none" 
+                className="absolute bottom-[50%] right-[-8px] border border-gray-600 p-[5px] bg-black rounded-full focus:outline-none" 
                 onClick={() => setIsCollapsed(!isCollapsed)}
             >
-                {isCollapsed ? <ChevronRightIcon className="w-6 h-6" /> : <ChevronLeftIcon className="w-6 h-6" />}
+                {isCollapsed ? <ChevronRightIcon className="w-6 text-gray-400" /> : <ChevronLeftIcon className="w-6 text-gray-400" />}
             </button>
         </div>
     );
