@@ -7,7 +7,7 @@ import Purchase, { PurchaseButtons } from "../ui/dashboard/purchase";
 
 export default function Page() {
     return (
-        <div className="flex overflow-hidden h-full">
+        <div className="flex overflow-hidden h-[80vh] md:h-full">
             <div className="flex-grow mr-5 overflow-auto">
                 <Card />
 

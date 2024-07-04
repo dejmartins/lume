@@ -51,31 +51,31 @@ export default function PortfolioPerformance() {
                 <div className="justify-between mb-4 gap-x-2 flex">
                     <button
                         onClick={() => setTimeFrame('24H')}
-                        className={`px-5 py-[2px] rounded-[22px] border border-[var(--lume-yellow)] text-sm font-semibold ${timeFrame === '24H' ? 'bg-[var(--lume-yellow)] text-black' : 'bg-transparent text-white'}`}
+                        className={`px-5 py-[2px] rounded-[22px] border border-[var(--lume-yellow)] text-[10px] md:text-sm font-semibold ${timeFrame === '24H' ? 'bg-[var(--lume-yellow)] text-black' : 'bg-transparent text-white'}`}
                     >
                         24H
                     </button>
                     <button
                         onClick={() => setTimeFrame('1W')}
-                        className={`px-5 py-[2px] rounded-[22px] border border-[var(--lume-yellow)] text-sm font-semibold ${timeFrame === '1W' ? 'bg-[var(--lume-yellow)] text-black' : 'bg-transparent text-white'}`}
+                        className={`px-5 py-[2px] rounded-[22px] border border-[var(--lume-yellow)] text-[10px] md:text-sm font-semibold ${timeFrame === '1W' ? 'bg-[var(--lume-yellow)] text-black' : 'bg-transparent text-white'}`}
                     >
                         1W
                     </button>
                     <button
                         onClick={() => setTimeFrame('1M')}
-                        className={`px-5 py-[2px]  rounded-[22px] border border-[var(--lume-yellow)] text-sm font-semibold ${timeFrame === '1M' ? 'bg-[var(--lume-yellow)] text-black' : 'bg-transparent text-white'}`}
+                        className={`px-5 py-[2px]  rounded-[22px] border border-[var(--lume-yellow)] text-[10px] md:text-sm font-semibold ${timeFrame === '1M' ? 'bg-[var(--lume-yellow)] text-black' : 'bg-transparent text-white'}`}
                     >
                         1M
                     </button>
                     <button
                         onClick={() => setTimeFrame('1Y')}
-                        className={`px-5 py-[2px]  rounded-[22px] border border-[var(--lume-yellow)] text-sm font-semibold ${timeFrame === '1Y' ? 'bg-[var(--lume-yellow)] text-black' : 'bg-transparent text-white'}`}
+                        className={`px-5 py-[2px]  rounded-[22px] border border-[var(--lume-yellow)] text-[10px] md:text-sm font-semibold ${timeFrame === '1Y' ? 'bg-[var(--lume-yellow)] text-black' : 'bg-transparent text-white'}`}
                     >
                         1Y
                     </button>
                     <button
                         onClick={() => setTimeFrame('ALL')}
-                        className={`px-5 py-[2px]  rounded-[22px] border border-[var(--lume-yellow)] text-sm font-semibold ${timeFrame === 'ALL' ? 'bg-[var(--lume-yellow)] text-black' : 'bg-transparent text-white'}`}
+                        className={`px-5 py-[2px]  rounded-[22px] border border-[var(--lume-yellow)] text-[10px] md:text-sm font-semibold ${timeFrame === 'ALL' ? 'bg-[var(--lume-yellow)] text-black' : 'bg-transparent text-white'}`}
                     >
                         ALL
                     </button>
