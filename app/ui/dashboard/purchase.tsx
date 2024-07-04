@@ -38,6 +38,17 @@ export default function Purchase(){
     )
 }
 
+export function PurchaseButtons() {
+    return (
+        <div className="flex flex-col my-5 items-center w-full md:hidden">
+            <div className="flex w-full space-between font-bold text-2xl text-gray-400">
+                <button className="w-full border border-0 border-r-[1px] py-4">Buy</button>
+                <button className="w-full">Sell</button>
+            </div>
+        </div>
+    )
+}
+
 export function SellButton() {
     return (
         <Button 

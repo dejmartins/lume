@@ -17,11 +17,11 @@ export default function TopNav() {
                 <div className="flex">
                     <div className="mr-5 flex items-center gap-x-2">
                         <BellAlertIcon className="size-5 text-white" />
-                        <p>Notification</p>
+                        <p className='hidden md:block'>Notification</p>
                     </div>
                     <div className="mr-5 flex items-center gap-x-2">
                         <UserIcon className="size-5 text-white" />
-                        <p>Profile</p>
+                        <p className='hidden md:block'>Profile</p>
                     </div>
                 </div>
             </div>

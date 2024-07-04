@@ -11,13 +11,13 @@ export default function SideNav({ isCollapsed, setIsCollapsed }: any) {
             >
                 <img src="/props/dashboard-logo.png" alt="Lume Logo" className={`h-16 mx-auto ${isCollapsed ? 'hidden' : ''}`} />
             </Link>
-            <div className="flex grow flex-row justify-between space-x-2 md:flex-col md:space-x-0 md:space-y-2">
+            <div className="flex grow flex-row justify-between space-x-0 flex-col md:space-y-2">
                 <NavLinks isCollapsed={isCollapsed} />
                 <div className="hidden h-auto w-full grow rounded-b-md bg-black md:block"></div>
                 <form>
-                    <button className={`flex h-[48px] w-full grow items-center justify-center gap-2 rounded-md bg-black p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-center ${isCollapsed ? 'justify-center' : ''}`}>
-                        <PowerIcon className="w-6" />
-                        <div className={`${isCollapsed ? 'hidden' : ''}`}>Sign Out</div>
+                    <button className={`flex h-[48px] w-full grow items-center justify-center gap-2 rounded-md bg-black p-3 text-sm font-mediums hover:border hover:border-[var(--lume-yellow)] md:flex-none md:justify-center ${isCollapsed ? 'justify-center' : ''}`}>
+                        <PowerIcon className="w-6 text-[var(--lume-yellow)]" />
+                        <div className={`text-[var(--lume-yellow)] ${isCollapsed ? 'hidden' : ''}`}>Sign Out</div>
                     </button>
                 </form>
             </div>
@@ -30,8 +30,5 @@ export default function SideNav({ isCollapsed, setIsCollapsed }: any) {
         </div>
     );
 }
-
-
-
 
 

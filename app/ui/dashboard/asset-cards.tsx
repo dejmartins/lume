@@ -9,7 +9,7 @@ export default function Card() {
             <p className="text-4xl font-bold">N203,935</p>
           </div>
   
-          <div className="w-2/5 flex flex-col justify-center text-center items-center relative">
+          <div className="w-2/5 flex-col hidden md:flex justify-center text-center items-center relative">
             <div className="h-12 w-12 rounded-full bg-[#000000] z-10 relative flex flex-col items-center justify-center">
                 <img src="/props/gold-money.png" alt="gold bars" />
             </div>

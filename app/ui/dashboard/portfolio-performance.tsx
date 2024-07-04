@@ -45,10 +45,10 @@ export default function PortfolioPerformance() {
     };
 
     return (
-        <div className="w-full rounded-md h-64 p-5 mb-10">
-            <div className='flex justify-between items-center'>
+        <div className="w-full rounded-md h-64 md:h-80 p-5 mb-10">
+            <div className='flex justify-between items-center flex-col lg:flex-row'>
                 <p className="text-left font-semibold mb-4">Portfolio Performance</p>
-                <div className="flex justify-between mb-4 gap-x-2">
+                <div className="justify-between mb-4 gap-x-2 flex">
                     <button
                         onClick={() => setTimeFrame('24H')}
                         className={`px-5 py-[2px] rounded-[22px] border border-[var(--lume-yellow)] text-sm font-semibold ${timeFrame === '24H' ? 'bg-[var(--lume-yellow)] text-black' : 'bg-transparent text-white'}`}
