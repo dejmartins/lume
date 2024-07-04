@@ -5,26 +5,28 @@ import PortfolioPerformance from "../ui/dashboard/portfolio-performance";
 import Profile from "../ui/dashboard/profile-card";
 import Purchase from "../ui/dashboard/purchase";
 
-export default function Page(){
+export default function Page() {
     return (
         <div className="flex">
-            <div className="w-full mr-5">
+            <div className="flex-grow md:overflow-y-auto mr-5">
                 <Card />
 
-                <div className="grid grid-cols-2 my-3 gap-3 min-h-40">
+                <div className="grid grid-cols-2 my-3 gap-3 min-h-40 pt-5">
                     <LatestActivities />
                     <Adverts />
                 </div>
 
-                <div className="">
+                <div>
                     <PortfolioPerformance />
                 </div>
             </div>
 
-            <div className="w-96 h-full grow">
+            <div className="w-80 h-full">
                 <Profile />
                 <Purchase />
             </div>
         </div>
     )
 }
+
+

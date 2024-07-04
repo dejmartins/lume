@@ -1,11 +1,6 @@
 'use client'
 
-import {
-    Square3Stack3DIcon,
-    WalletIcon,
-    BanknotesIcon,
-    UserIcon
-  } from '@heroicons/react/24/outline';
+import { Square3Stack3DIcon, WalletIcon, BanknotesIcon, UserIcon} from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 // @ts-ignore
@@ -28,7 +23,7 @@ const links = [
     },
 ];
 
-export default function NavLinks() {
+export default function NavLinks({ isCollapsed }: { isCollapsed: Boolean }) {
   const pathName = usePathname()
   return (
     <>
@@ -49,7 +44,9 @@ export default function NavLinks() {
                 'text-[var(--lume-yellow)]': pathName === link.href
               }
             )} />
-            <p className="hidden md:block">{link.name}</p>
+            <p className="hidden md:block">
+              {!isCollapsed && <span className="ml-3">{link.name}</span>}
+            </p>
           </Link>
         );
       })}
