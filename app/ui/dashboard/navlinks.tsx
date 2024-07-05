@@ -18,7 +18,7 @@ const links = [
     { name: 'Wallet', href: '/dashboard/wallet', 
     icon: WalletIcon 
     },
-    { name: 'Account', href: '/dashboard/account', 
+    { name: 'Account', href: '/dashboard/account/bank', 
     icon: UserIcon 
     },
 ];

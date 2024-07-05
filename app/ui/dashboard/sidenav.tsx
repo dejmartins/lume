@@ -11,7 +11,7 @@ export default function SideNav({ isCollapsed, setIsCollapsed }: any) {
             >
                 <img src="/props/dashboard-logo.png" alt="Lume Logo" className={`h-16 mx-auto ${isCollapsed ? 'hidden' : ''}`} />
             </Link>
-            <div className="flex grow flex-row justify-between space-x-0 flex-col md:space-y-2">
+            <div className="flex grow justify-between space-x-0 flex-col md:space-y-2">
                 <NavLinks isCollapsed={isCollapsed} />
                 <div className="hidden h-auto w-full grow rounded-b-md bg-black md:block"></div>
                 <form>
